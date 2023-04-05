@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-tac-toe</title>
+	<link rel="stylesheet" href="/src/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+	<div id="back">
+
+		<header class="header">
+			<div class="conteiner">
+
+				<form class="form">
+					<input class="player1" id="inputChek1" type="text" placeholder="Player 1 (Крестики)" size="18">
+					<input class="player2" id="inputChek2" type="text" placeholder="Player 2 (Нолики)" size="18">
+				</form>
+				<button class="start__game">Начать игру</button>
+			</div>
+		</header>
+	</div>
+
+	<div id="game"></div>
+	<div class="buttons">
+
+		<button class="clear">Clear Round</button>
+		<button class="new__game">New Game</button>
+		<button class="change__name">Change Name</button>
+	</div>
+	</div>
+	<div class="game-score__content">
+		<h2 class="game-score__title">Счет</h2>
+		<div class="scoreboard">
+			<span class="scoreTable"></span>
+			<span class="player1-count">0</span>
+			<span class="scoreTable2"></span>
+			<span class="player2-count">0</span>
+		</div>
+	</div>
+	<script src="/src/index.js"></script>
+
+
+</body>
+
+
+</html>
