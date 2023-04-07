@@ -1,5 +1,5 @@
-import './index.html';
-import './style.css';
+// import './index.html';
+// import './style.css';
 let input = document.querySelectorAll('input');
 const start__game = document.querySelector('.start__game');
 const changeName = document.querySelector('.change__name');
